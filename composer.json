@@ -1,0 +1,22 @@
+{
+	"name" : "aemrekadioglu/portalium-news",
+	"description" : "Portalium User Module",
+	"type" : "portalium-core",
+	"license": "MIT",
+	"homepage" : "https://portalium.dev",
+	"authors" : [
+		{
+			"name" : "Uğur YILDIZ",
+			"email" : "yildiz@diginova.com.tr",
+			"homepage" : "https://uguryildiz.net"
+		}
+	],
+	"support" : {
+		"issues" : "https://github.com/aemrekadioglu/portalium-news/issues"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"aemrekadioglu\\news\\" : "src/"
+		}
+	}
+}
